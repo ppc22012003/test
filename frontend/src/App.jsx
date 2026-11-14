@@ -2,8 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/phim';
-
+const API_URL = 'https://movie-management-api-35to.onrender.com/api/phim';
 const formMacDinh = {
     ten_phim: '',
     the_loai: '',

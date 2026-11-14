@@ -1,8 +1,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/phim';
-
+const API_URL = 'https://movie-management-api-35to.onrender.com/api/phim';
 // Lấy danh sách phim
 export const getMovies = async () => {
     const response = await axios.get(API_URL);
