@@ -255,12 +255,12 @@ function App() {
 
                                         <td>
                                             <div className="action-buttons">
-                                                   <button
+                                                   {/* <button
                                                         className="btn-edit"
                                                         onClick={() => suaPhim(phim)}
                                                     >
                                                         Sửa
-                                                    </button>
+                                                    </button> */}
 
                                                 <button
                                                     className="btn-delete"
